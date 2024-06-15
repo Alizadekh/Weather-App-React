@@ -1,5 +1,6 @@
 .all {
   width: 49%;
+  height: auto !important;
   background: rgba(31, 127, 180, 0.35);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -37,5 +38,24 @@
   to {
     opacity: 1;
     height: 320px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .all {
+    width: 98%;
+    margin: auto;
+  }
+  .card {
+    width: 30%;
+  }
+  .card img {
+    width: 100%;
+  }
+  .card h1 {
+    font-size: 28px;
+  }
+
+  .card p {
+    font-size: 14px;
   }
 }

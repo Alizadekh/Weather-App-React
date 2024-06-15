@@ -41,3 +41,9 @@
     height: 320px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .all {
+    width: 98%;
+    margin: auto;
+  }
+}

@@ -26,10 +26,15 @@
   display: flex;
   font-size: 12px;
 }
-
-.card img {
-  width: 50%;
+.block {
+  min-width: 300px;
 }
-.card h1 {
-  font-size: 15px;
+
+@media (max-width: 768px) {
+  .block {
+    min-height: auto;
+  }
+  .all {
+    width: 100%;
+  }
 }

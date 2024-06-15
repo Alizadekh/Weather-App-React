@@ -88,6 +88,34 @@ function Summary() {
         text: `Hourly Temperature Forecast for ${city}`,
       },
     },
+    scales: {
+      x: {
+        type: "category",
+        display: true,
+        title: {
+          display: true,
+          text: "Time",
+        },
+      },
+      y: {
+        type: "linear",
+        display: true,
+        title: {
+          display: true,
+          text: "Temperature (°C)",
+        },
+        suggestedMin: 0,
+        suggestedMax: 40,
+      },
+    },
+    layout: {
+      padding: {
+        left: 10,
+        right: 10,
+        top: 0,
+        bottom: 0,
+      },
+    },
   };
 
   if (!city || (!isLoading && !forecastData)) {

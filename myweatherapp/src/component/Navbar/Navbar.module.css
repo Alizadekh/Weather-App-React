@@ -73,3 +73,21 @@ a:hover {
   font-weight: 700;
   height: 30px;
 }
+
+@media only screen and (max-width: 768px) {
+  .navContent {
+    width: 100%;
+  }
+  nav {
+    display: none;
+  }
+  .search {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .search input {
+    width: 80%;
+  }
+}
