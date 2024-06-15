@@ -31,7 +31,6 @@
   font-size: 18px;
   font-weight: 200;
 }
-
 .info {
   display: flex;
   flex-direction: column;
@@ -48,7 +47,6 @@ h4 {
   width: 100%;
   text-align: center;
 }
-
 @keyframes fadeIn {
   from {
     opacity: 0;

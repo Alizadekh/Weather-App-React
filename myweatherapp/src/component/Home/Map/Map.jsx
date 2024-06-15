@@ -33,8 +33,6 @@ function Map() {
         <iframe
           title='map'
           src={`https://www.google.com/maps/embed/v1/view?key=${GEOCODING_API_KEY}&center=${lat},${lng}&zoom=12`}
-          width='600'
-          height='490'
           allowFullScreen
           loading='lazy'></iframe>
       )}

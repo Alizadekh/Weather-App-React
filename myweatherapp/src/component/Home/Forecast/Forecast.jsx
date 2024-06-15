@@ -5,7 +5,7 @@ import CityContext from "../../../Context/CityContext";
 
 function Forecast() {
   const [forecastData, setForecastData] = useState(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   const { city } = useContext(CityContext);
   const API_KEY = "6dac8d169c854c309dd150312242104";
 
@@ -32,6 +32,10 @@ function Forecast() {
   }, [city, API_KEY]);
 
   console.log(forecastData, "Forecast data");
+
+  if (!city || (!isLoading && !forecastData)) {
+    return null;
+  }
 
   return (
     <div className={style.all}>

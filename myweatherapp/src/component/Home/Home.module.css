@@ -8,11 +8,12 @@
 }
 .home {
   width: 80%;
-  height: 750px !important;
+  height: auto;
   margin: auto;
   padding: 30px;
   border-radius: 50px;
   display: flex;
+  justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
   background: rgba(247, 249, 250, 0.28);
@@ -30,6 +31,6 @@
   }
   to {
     opacity: 1;
-    height: 410px;
+    height: 100%;
   }
 }

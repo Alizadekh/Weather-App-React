@@ -90,6 +90,10 @@ function Summary() {
     },
   };
 
+  if (!city || (!isLoading && !forecastData)) {
+    return null;
+  }
+
   return (
     <div className={style.all}>
       {isLoading ? (
