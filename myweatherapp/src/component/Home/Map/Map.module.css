@@ -1,0 +1,16 @@
+iframe {
+  border-radius: 20px;
+  border: 2px solid white;
+  height: 36vh;
+  animation: fadeIn 2.5s ease-in-out forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    height: 0px;
+  }
+  to {
+    opacity: 1;
+    height: 320px;
+  }
+}

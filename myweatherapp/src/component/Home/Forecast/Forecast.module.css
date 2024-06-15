@@ -1,0 +1,31 @@
+.all {
+  width: 50%;
+  background: rgba(31, 127, 180, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+  border: 1px solid rgba(31, 127, 180, 0.3);
+  padding: 20px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  animation: fadeIn 2.5s ease-in-out forwards;
+}
+.block {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 33%;
+  background-color: rgba(83, 133, 160, 0.745);
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+.card img {
+  width: 70%;
+}
+.card h1 {
+  font-size: 48px;
+}

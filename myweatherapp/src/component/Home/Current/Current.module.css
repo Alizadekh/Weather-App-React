@@ -1,0 +1,61 @@
+.all {
+  width: 25%;
+  background: rgba(31, 127, 180, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+  border: 1px solid rgba(31, 127, 180, 0.3);
+  padding: 20px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  animation: fadeIn 2.5s ease-in-out forwards;
+}
+.now {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.now img {
+  width: 50%;
+}
+.now h1 {
+  font-size: 72px;
+}
+.anotherInfos {
+  display: flex;
+  justify-content: space-between;
+}
+.now h1 h3 {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+}
+.info div {
+  font-size: 34px;
+}
+h4 {
+  color: white;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    height: 0px;
+  }
+  to {
+    opacity: 1;
+    height: 320px;
+  }
+}

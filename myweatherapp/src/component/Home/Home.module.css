@@ -1,0 +1,35 @@
+.all {
+  width: 100%;
+  height: 800px;
+  background-color: #336bb5;
+  margin-top: 30px;
+  padding: 30px;
+  display: block;
+}
+.home {
+  width: 80%;
+  height: 750px !important;
+  margin: auto;
+  padding: 30px;
+  border-radius: 50px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: rgba(247, 249, 250, 0.28);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(247, 249, 250, 0.3);
+  animation: fadeIn 2.5s ease-in-out forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    height: 0px;
+  }
+  to {
+    opacity: 1;
+    height: 410px;
+  }
+}
